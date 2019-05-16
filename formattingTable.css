@@ -1,0 +1,19 @@
+table{
+	border-collapse: collapse&semi;
+}
+
+table th {
+	text-align: left&semi;
+	background-color: #3A6070&semi;
+	color: #FFF&semi;
+	padding: 4px 30px 4px 8px&semi;	
+}
+
+table td {
+	border: 1px solid #E3E3E3&semi;
+	padding: 4px 8px&semi;
+}
+
+table tr:nth-child(odd) td {
+	background-color: #E7EDF0&semi;
+}

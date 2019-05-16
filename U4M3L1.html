@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>All About Selectors</title>
+		<style>
+			*{
+				background-color:red;
+			}
+			p{
+				color:blue;
+			}
+			#thisOne{
+				color:green;
+			}
+			.purple{
+				color:purple;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h1>Like everything else, this should have a red background color</h1>
+		<h1 id=thisOne>But this should also be green because of it's class</h1>
+		<p>Because this is a paragraph, it should be blue.</p>
+		<p>This one too</p>
+		<p>Even though this is in a paragraph, the second half of this <span class=purple>sentence should be purple because it is in a span with class .purple</span></p>
+	</body>
+</html>

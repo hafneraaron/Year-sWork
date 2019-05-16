@@ -1,0 +1,112 @@
+img[alt="American Flag"]{
+	height: 34px;
+	height: 60px;
+	border: 1px solid white;
+	transform: translate(5px,2px);
+}
+
+header{
+	background-color: rgb(208,21,30);
+	height: 67px;
+}
+
+header h1{
+	color: white;
+	font-family: Palatino, "URW Palladio L", serif;
+	font-size: 3em;
+	text-indent:2em;
+	transform: translate(25px, -92px);
+}
+
+header h2{
+	color: white;
+	font-family: font-family: Palatino, "URW Palladio L", serif;
+	font-weight: 200;
+	transform: translate(0px, -157px);
+	text-align: right;
+	padding-right: 10px;
+}
+
+#intro{
+	background-color: rgb(15,45,109);
+	outline: solid rgb(208,21,30) 3px;
+	color: white;
+	padding-top: 1em;
+	padding-bottom:1em;
+	padding-left: 10px;
+	padding-right:10px;
+	font-size:1.5em;
+	width: 75%;
+	transform: translate(3px,0px);
+}
+
+#intro h1{
+	color: rgb(208,21,30);
+	text-decoration: underline;
+	font-size:30pt;
+}
+
+nav{
+	width: 256px;
+	height: 1244px;
+	transform: translate(1024px, -7132px);
+	font-size: 20pt;
+	background-color: rgb(15,45,109);
+	color: white;
+	padding-left:25px;
+	padding-right:25px;
+	padding-top: 50px;
+	outline: solid rgb(208,21,30) 3px;
+	text-align: center;
+}
+
+a:link{
+	color: red;
+}
+
+a:visited{
+	color: rgb(208,21,30);
+}
+
+#main{
+	background-image: url(https://i.pinimg.com/originals/0c/e5/6d/0ce56ddec3eb469a516d68adc4354b63.jpg);
+	font: italic 14pt "Brush Script MT", "Brush Script Std", cursive;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 5800px;
+}
+
+#we{
+	font-size: 4em;
+	font-family: Palatino, "URW Palladio L", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+#top{
+	font-size: 2em;
+}
+
+#main h1{
+	font-family: Palatino, "URW Palladio L", serif;
+	font-size: 2.5em;
+	font-style: normal;
+	text-indent:2em;
+}
+
+#main h2{
+	font-size: 18pt;
+	font-weight: 200;
+}
+
+#main section.left{
+	width: 45%;
+	padding-right: 20px;
+	transform: translate(6%, 0%);
+}
+
+#main section.right{
+	width:45%;
+	transform: translate(106%,-5160px);
+	padding-left: 25px;
+}

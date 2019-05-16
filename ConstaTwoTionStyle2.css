@@ -1,0 +1,148 @@
+img[alt="American Flag"]{
+	height: 34px;
+	height: 60px;
+	border: 1px solid white;
+	transform: translate(5px,2px);
+}
+
+header{
+	background-color: rgb(208,21,30);
+	height: 67px;
+	padding-bottom: 20px;
+}
+
+header h1{
+	color: white;
+	font-family: Georgia, serif;
+	font-size: 3em;
+	text-indent:2em;
+	transform: translate(25px, -92px);
+	text-decoration: underline;
+}
+
+header h2{
+	color: white;
+	font-family: Georgia, serif;
+	font-weight: 200;
+	transform: translate(0px, -157px);
+	text-align: right;
+	padding-right: 10px;
+}
+
+nav{
+	width: 245px;
+	height: 1656px;
+	font-family: "Times New Roman", serif;
+	font-size: 16pt;
+	background: linear-gradient(rgb(15,45,109), rgb(3,16,38) );
+	color: white;
+	padding-left:25px;
+	padding-right:25px;
+	padding-top: 50px;
+	outline: solid rgb(208,21,30) 3px;
+	transform: translate(-3px, 0px);
+	text-align: center;
+	float: right;
+}
+
+nav h1{
+	font-family: Georgia, serif;
+	font-size: 1.2em;
+}
+
+#intro{
+	background: linear-gradient(rgb(15,45,109), rgb(3,16,38) );
+	outline: solid rgb(208,21,30) 3px;
+	color: white;
+	padding-top: 1em;
+	padding-bottom:1em;
+	padding-left: 10px;
+	padding-right:20px;
+	font-size:1.5em;
+	font-family:"Times New Roman", Times, serif;
+	width: 75%;
+	transform: translate(3px,0px);
+	padding-top: 5px;
+}
+
+#intro h1{
+	color: rgb(208,21,30);
+	text-decoration: underline;
+	font-size:30pt;
+	font-family: Georgia, serif;
+	padding-top: 5px;
+}
+
+#intro p{
+	text-indent: 80px;
+}
+
+#intro aside{
+	font-size: 0.6em;
+	text-indent:300px;
+}
+
+img[alt="The Constitutional Convention Signing the Constatution"]{
+	transform:translate(210px, -1335px);
+}
+
+a:link{
+	color: red;
+}
+
+a:visited{
+	color: rgb(208,21,30);
+}
+
+#main{
+	background-image: url(https://i.pinimg.com/originals/0c/e5/6d/0ce56ddec3eb469a516d68adc4354b63.jpg);
+	font: italic 16pt "Brush Script MT", "Brush Script Std", cursive;
+	padding-left: 10px;
+	padding-top:100px;
+	padding-right: 10px;
+	height: 7000px;
+	z-index: -100;
+	transform: translate(0px,-350px);
+}
+
+#we{
+	font-size: 4em;
+	font-family: Palatino, "URW Palladio L", serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+#top{
+	font-size: 2em;
+}
+
+#main h1{
+	font-family: Palatino, "URW Palladio L", serif;
+	font-size: 2.5em;
+	font-style: normal;
+	text-indent:2em;
+	margin-top:0.25em;
+	margin-bottom:0.25em;
+}
+
+#main h2{
+	font-size: 20pt;
+	font-weight: 200;
+}
+
+#main p{
+	text-indent: 60px;
+}
+
+#main section.left{
+	float: left;
+	width: 45%;
+	padding-right: 20px;
+	transform: translate(6%, 0%);
+}
+
+#main section.right{
+	float: right;
+	width:45%;
+	padding-right: 45px;
+}

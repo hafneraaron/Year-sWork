@@ -1,0 +1,25 @@
+body{
+	background-color: hsl(20, 40%, 15%);
+	font-size:15pt;
+}
+
+header{
+	background-color: hsl(20, 40%, 40%);
+	color: hsl(33,100%,50%);
+	font-size:20pt;
+	border-style: solid;
+	border-color: hsl(32, 90%, 50%);
+}
+
+p{
+	color: hsl(120,40%,70%);
+	border-style: solid;
+	border-color: hsl(32, 90%, 50%);
+}
+
+.menu{
+	background-color: hsl(20, 40%, 40%);
+	color: hsl(260, 88%, 24%);
+	border-style: solid;
+	border-color: hsl(32, 90%, 50%);
+}

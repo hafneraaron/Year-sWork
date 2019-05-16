@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Tester</title>
+		<style>
+			aside{
+				display:none;
+				font-size:3em;
+			}
+			section p{
+				background-color: green;
+				font-size:3em;
+			}
+			section:hover + aside{
+				display: block;
+				background-color: red;
+			}
+			section{
+				background-color:purple;
+			}
+		</style>
+	</head>
+
+	<body>
+		<section><p>HOVER OVER ME!<p></section>
+		<aside>This bad Larry is an aside.</aside>
+		<br>
+		<section>Kitchen</section>
+		<br>
+	</body>
+		
+</html>

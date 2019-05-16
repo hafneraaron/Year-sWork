@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>All About Selectors</title>
+		<style>
+			section.red{
+				color:red;
+			}
+			h1,h2,h3{
+				background-color: purple;
+			}
+			p.green,span.green{
+				color:green
+			}
+		</style>
+	</head>
+
+	<body>
+		<section>
+			This is a section. It does not have class red so it's not red.
+		</section>
+		<section class=red>
+			This is a section with class red so it's red.
+		</section>
+		<h1>h1 is purple</h1>
+		<h2>h2 is purple too</h2>
+		<h3>h3 is also purple</h3>
+		<p>This is a paragraph without class green, so it is not green.</p>
+		<span>This is a span without class green, so it is not green.</span>
+		<p class=green>This is a paragraph with class green, so it is green.</p>
+		<span class=green> This is a span with class green, so it is green. </span>
+	</body>
+		
+</html>

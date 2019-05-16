@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>All About Selectors</title>
+		<style>
+			section p{
+				background-color:red;
+			}
+			h1+p{
+				color:blue;
+			}
+			section>h1{
+				color:green;
+			}
+			h1~span{
+				color:purple;
+			}
+		</style>
+	</head>
+
+	<body>
+		<p>This is outside the section so its background-color is not red.</p>
+		<section>
+			<p>This paragraph is the decendent of a section so it should have background-color red.</p>
+			<div>
+				<p>Even though this p is in a div, that div is in a section so it is still a descendant of a section, so it should have background-color red.</p>
+			</div>
+			<h1>This is my h1. It should be green because it is the child of a section</h1>
+			<p>This p should be blue because it fallows h1.</p>
+			<div>
+				<h1>This is another h1, but it should not be green because it is inside a div inside a section, meaning it is not the child of a section.</h1>
+			</div>
+			<span>This is my span. It should be purple because it is a general sibling of an h1.</span>
+		</section>
+	</body>
+</html>

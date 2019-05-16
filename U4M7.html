@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Text Positioning</title>
+		<style>
+			*{
+				font-size: 25pt;
+				font-family: "Times New Roman", serif;
+				line-height: 1.75em;
+			}
+			.ind{
+				text-indent:2em;
+			}
+			.r{
+				text-align: right;
+			}
+			.l{
+				text-align: left;
+			}
+			.center{
+				text-align: center;
+			}
+			.j{
+				text-align: justify;
+			}
+			.base{
+				vertical-align: baseline;
+			}
+			.sub{
+				vertical-align: sub;
+			}
+			.super{
+				vertical-align: super;
+			}
+			.top{
+				vertical-align: top;
+			}
+			.t-top{
+				vertical-align: text-top;
+			}
+			.middle{
+				vertical-align: middle;
+			}
+			.t-bot{
+				vertical-align: text-bottom;
+			}
+			.bot{
+				vertical-align: bottom;
+			}
+			.length{
+				vertical-align: -34pt;
+			}
+			.raise{
+				vertical-align: 110%;
+			}
+			.lower{
+				vertical-align:-60%
+			}
+			
+		</style>
+	</head>
+
+	<body>
+		<p class="ind">This is indented</p>
+		<p class="r">This is alligned on the right</p>
+		<p class="l">This is alligned on the left</p>
+		<p class="center">This is alligned in the center</p>
+		<p class="j">This is alligned in justify. This is alligned in justify. This is alligned in justify. This is alligned in justify. This is not alligned in justify. The spaces between the words in the line above are larger than the spaces in this line. </p>
+		This is vertically alligned in <span class="base">baseline, or default</span><br>
+		This is vertically alligned as a <span class="sub">subscript</span><br>
+		This is vertically alligned as a <span class="super">superscript</span><br>
+		<span style="font-size:2em">TEXT</span>This is vertically alligned on the <span class="top">top of the tallest element on the line</span><br>
+		<p style="font-size:3em">THIS IS THE PARENT ELEMENT<span class="t-top">This is alligned with the top of the parent element,</span><span class="middle">this is alligned with the middle of the parent element,</span><span class="t-bot">and this is alligned with the bottom of the parent element.<span></p>
+		This is alligned <span class="sub"> low...</span><span class="bot">and this is bottom alligned at the lowest thing on this line.</span>
+		<br>This is <span class="length">lowered by 34 pt</span>
+		<br>This is <span class="raise">raised by 110% of its line height</span>
+		<br>This is <span class="lower">lowered by 60% of its line height</span>
+	</body>
+		
+</html>
